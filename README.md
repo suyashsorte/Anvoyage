@@ -1,2 +1,2 @@
 # Anvoyage
-A fully respnsive tourism website for Andaman and Nicobar Islands
+A fully responsive tourism website for Andaman and Nicobar Islands
