@@ -1,0 +1,94 @@
+.footer{
+    font: bold 16px sans-serif;
+	background-color: #282b2e;
+	width: 100%;
+	margin-top: 80px;
+}
+
+.left,.center,.right{
+	
+    vertical-align: top;
+    display: inline-block;
+}
+
+/* Footer left */
+
+.left{
+    /* width: 40%; */
+    padding-left: 10px;
+    margin-left: 30px;
+    padding-right: 70px;
+}
+.left p a{
+    padding: 2px;
+}
+/* The company logo */
+
+.footer h3{
+    font: normal 36px 'Cookie', cursive;
+	color:  #ffffff;
+}
+
+.footer h3 span{
+	color:  #4f7cca;
+}
+
+/* Footer links */
+
+
+.footer-links a{
+	text-decoration: none;
+    color: #ffffff;
+    
+}
+
+
+
+
+/* Footer Right */
+
+.right{
+    padding-left: 10px;
+    margin-left: 300px;
+    padding-right: 70px;
+    padding-top:40px;
+}
+/* .social{
+   padding-top:40%;
+  
+    
+    
+} */
+
+.social a i{
+    background-color:  #2e3235;
+    color: #ffffff;
+	width: 40px;
+	height: 40px;
+    border-radius: 5px;
+    line-height: 43px;
+    font-size: 30px;
+	text-align: center;
+    margin-right: 10px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer{
+		font: bold 14px sans-serif;
+	}
+
+	.footer .left,.footer .center,.footer .right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer .center i{
+		margin-left: 0;
+	}
+
+}
